@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1687060329 source:d:\developer\c\fibonacci\fibo_02\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
