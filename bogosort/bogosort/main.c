@@ -36,9 +36,12 @@ void exibirVetor(int vetor[], int tamanho) {
 
 // Função de ordenação Bogo Sort
 void bogoSort(int vetor[], int tamanho) {
+    int contator = 1;
     while (!estaOrdenado(vetor, tamanho)) {
+        contator ++;
         embaralhar(vetor, tamanho);
     }
+    printf("%d\n", contator);
 }
 
 int main() {
