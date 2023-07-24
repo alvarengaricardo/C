@@ -17,6 +17,7 @@ void insertion_sort(int *array, int n) {
 }
 
 int main() {
+  printf("Insertion Sort\n");
   int array[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
   
   int n = sizeof(array) / sizeof(array[0]);

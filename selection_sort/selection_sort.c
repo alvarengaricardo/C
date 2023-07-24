@@ -5,7 +5,7 @@ void selectionSort(int array[], int tamanho) {
     for (i = 0; i < tamanho - 1; i++) {
         minIndex = i;
         for (j = i + 1; j < tamanho; j++) {
-            // Encontra o índice do menor elemento no subarray não ordenado
+            // Encontra o ï¿½ndice do menor elemento no subarray nï¿½o ordenado
             if (array[j] < array[minIndex]) {
                 minIndex = j;
             }
@@ -26,7 +26,8 @@ void imprimirArray(int array[], int tamanho) {
 }
 
 int main() {
-    int array[] = {64, 34, 25, 12, 22, 11, 90, 45, 27, 18};
+    printf("Selection Sort\n");
+    int array[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     int tamanho = sizeof(array) / sizeof(array[0]);
 
     printf("Array antes da ordenacao: ");

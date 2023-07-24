@@ -26,6 +26,7 @@ void imprimirArray(int array[], int tamanho) {
 }
 
 int main() {
+    printf("Bubble Sort\n");
     int array[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0};
     int tamanho = sizeof(array) / sizeof(array[0]);
 

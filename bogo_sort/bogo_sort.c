@@ -23,7 +23,6 @@ void embaralhar(int vetor[], int tamanho) {
     }
 }
 
-// Fun��o para exibir o vetor
 void exibirVetor(int vetor[], int tamanho) {
     int i;
     for (i = 0; i < tamanho; i++) {
@@ -32,7 +31,6 @@ void exibirVetor(int vetor[], int tamanho) {
     printf("\n");
 }
 
-// Fun��o de ordena��o Bogo Sort
 void bogoSort(int vetor[], int tamanho) {
     int contator = 1;
     while (!estaOrdenado(vetor, tamanho)) {
@@ -43,10 +41,11 @@ void bogoSort(int vetor[], int tamanho) {
 }
 
 int main() {
-    int vetor[] = {9, 4, 6, 2, 8, 5, 1, 3, 7, 0};
+    printf("Bogo Sort\n");
+    int vetor[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
     int tamanho = sizeof(vetor) / sizeof(vetor[0]);
 
-    srand(time(NULL)); // Inicializa a semente do gerador de n�meros aleat�rios
+    srand(time(NULL)); // Inicializa a semente do gerador de numeros aleatorios
 
     printf("Vetor antes da ordenacao: ");
     exibirVetor(vetor, tamanho);
