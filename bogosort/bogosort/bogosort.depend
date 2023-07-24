@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1689820870 source:d:\developer\c\bogosort\bogosort\main.c
-	<stdio.h>
-	<stdlib.h>
-	<stdbool.h>
-	<time.h>
-

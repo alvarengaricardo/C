@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include <time.h>
 
-// Função para verificar se o vetor está ordenado
 bool estaOrdenado(int vetor[], int tamanho) {
     int i;
     for (i = 0; i < tamanho - 1; i++) {
@@ -14,7 +13,6 @@ bool estaOrdenado(int vetor[], int tamanho) {
     return true;
 }
 
-// Função para embaralhar os elementos do vetor
 void embaralhar(int vetor[], int tamanho) {
     int i;
     for (i = 0; i < tamanho; i++) {
@@ -25,7 +23,7 @@ void embaralhar(int vetor[], int tamanho) {
     }
 }
 
-// Função para exibir o vetor
+// Funï¿½ï¿½o para exibir o vetor
 void exibirVetor(int vetor[], int tamanho) {
     int i;
     for (i = 0; i < tamanho; i++) {
@@ -34,7 +32,7 @@ void exibirVetor(int vetor[], int tamanho) {
     printf("\n");
 }
 
-// Função de ordenação Bogo Sort
+// Funï¿½ï¿½o de ordenaï¿½ï¿½o Bogo Sort
 void bogoSort(int vetor[], int tamanho) {
     int contator = 1;
     while (!estaOrdenado(vetor, tamanho)) {
@@ -48,7 +46,7 @@ int main() {
     int vetor[] = {9, 4, 6, 2, 8, 5, 1, 3, 7, 0};
     int tamanho = sizeof(vetor) / sizeof(vetor[0]);
 
-    srand(time(NULL)); // Inicializa a semente do gerador de números aleatórios
+    srand(time(NULL)); // Inicializa a semente do gerador de nï¿½meros aleatï¿½rios
 
     printf("Vetor antes da ordenacao: ");
     exibirVetor(vetor, tamanho);
