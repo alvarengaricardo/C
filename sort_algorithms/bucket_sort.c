@@ -40,6 +40,7 @@ void bucketSort(int vetor[], int n) {
 }
 
 int main() {
+    printf("Bucket Sort\n");
     int vetor[10] = {23, 45, 12, 67, 89, 5, 32, 66, 49, 8};
 
     printf("Vetor original:\n");
