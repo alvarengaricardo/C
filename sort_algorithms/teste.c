@@ -41,7 +41,7 @@ void aa(int vetor[], int tamanho) {
 }
 
 int main() {
-    int vetor[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int vetor[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 15, 13, 11, 14, 12};
     int tamanho = sizeof(vetor) / sizeof(vetor[0]);
 
     srand(time(NULL));
