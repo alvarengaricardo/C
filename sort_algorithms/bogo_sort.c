@@ -42,7 +42,7 @@ void bogoSort(int vetor[], int tamanho) {
 
 int main() {
     printf("Bogo Sort\n");
-    int vetor[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+    int vetor[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 12, 11};
     int tamanho = sizeof(vetor) / sizeof(vetor[0]);
 
     srand(time(NULL)); // Inicializa a semente do gerador de numeros aleatorios
